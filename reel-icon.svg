@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#311042"/>
+    </linearGradient>
+    <linearGradient id="neon-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="50%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="cyan-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#a855f7" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <!-- Background Card -->
+  <rect width="512" height="512" rx="112" fill="url(#bg-grad)"/>
+  
+  <!-- Outer glowing border ring -->
+  <rect x="16" y="16" width="480" height="480" rx="96" fill="none" stroke="url(#neon-glow)" stroke-width="4" stroke-opacity="0.4"/>
+
+  <!-- 9:16 Vertical Smartphone Frame Outline -->
+  <g filter="url(#glow)">
+    <rect x="144" y="64" width="224" height="384" rx="36" fill="#090d16" stroke="url(#neon-glow)" stroke-width="5"/>
+    
+    <!-- Phone Notch -->
+    <rect x="220" y="78" width="72" height="8" rx="4" fill="#334155"/>
+
+    <!-- Screen Content: Clapperboard / Video Wave -->
+    <rect x="164" y="110" width="184" height="290" rx="20" fill="#1e1b4b" fill-opacity="0.6"/>
+
+    <!-- Film Strips (Top & Bottom) -->
+    <rect x="176" y="126" width="24" height="18" rx="3" fill="#a855f7"/>
+    <rect x="210" y="126" width="24" height="18" rx="3" fill="#a855f7"/>
+    <rect x="244" y="126" width="24" height="18" rx="3" fill="#a855f7"/>
+    <rect x="278" y="126" width="24" height="18" rx="3" fill="#a855f7"/>
+    <rect x="312" y="126" width="24" height="18" rx="3" fill="#a855f7"/>
+
+    <!-- Center Play / Transition Portal -->
+    <circle cx="256" cy="245" r="48" fill="url(#neon-glow)"/>
+    <polygon points="244,225 278,245 244,265" fill="#ffffff"/>
+
+    <!-- Dynamic 9:16 Aspect Badge -->
+    <rect x="180" y="325" width="68" height="26" rx="8" fill="#0f172a" stroke="#a855f7" stroke-width="2"/>
+    <text x="214" y="343" font-family="system-ui, sans-serif" font-size="13" font-weight="900" fill="#e9d5ff" text-anchor="middle">9:16</text>
+
+    <!-- 60 FPS Badge -->
+    <rect x="264" y="325" width="68" height="26" rx="8" fill="#0f172a" stroke="#06b6d4" stroke-width="2"/>
+    <text x="298" y="343" font-family="system-ui, sans-serif" font-size="13" font-weight="900" fill="#67e8f9" text-anchor="middle">60 FPS</text>
+
+    <!-- AI Sparkle Icon -->
+    <path d="M375 95 Q375 125 405 125 Q375 125 375 155 Q375 125 345 125 Q375 125 375 95 Z" fill="#22d3ee"/>
+    <path d="M125 370 Q125 390 145 390 Q125 390 125 410 Q125 390 105 390 Q125 390 125 370 Z" fill="#ec4899"/>
+  </g>
+</svg>
