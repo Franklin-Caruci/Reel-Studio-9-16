@@ -1,14 +1,15 @@
-# 🎬 Reel Studio 9:16 — Editor de Video Vertical, Transiciones Tendencia & Prompts IA (60 FPS)
+# 🎬 Reel Studio 9:16 — Editor de Video Vertical, Transiciones Tendencia & Prompts IA (2K @ 60 FPS)
 
-![Render 60 FPS](https://img.shields.io/badge/Render-60%20FPS%20Full%20HD-purple?style=for-the-badge&logo=speedtest)
+![Render 60 FPS](https://img.shields.io/badge/Render-60%20FPS%20%7C%202K%20Quad%20HD-purple?style=for-the-badge&logo=speedtest)
 ![Aspect Ratio](https://img.shields.io/badge/Format-9%3A16%20Vertical-pink?style=for-the-badge&logo=instagram)
 ![PWA Ready](https://img.shields.io/badge/PWA-Offline%20First-emerald?style=for-the-badge&logo=pwa)
+![Audio Engine](https://img.shields.io/badge/Audio-Local%20%2B%20Online%20URL-amber?style=for-the-badge&logo=soundcloud)
 ![AI Prompts](https://img.shields.io/badge/AI%20Prompts-VEO%203.1%20%7C%20Runway%20%7C%20Kling%20%7C%20Luma-cyan?style=for-the-badge&logo=openai)
 ![Multiplatform](https://img.shields.io/badge/Multiplatform-Web%20%7C%20Android%20%7C%20PC-blue?style=for-the-badge)
 
 **Reel Studio 9:16** es una suite profesional multiplataforma (Web, Android y PC) diseñada para creadores de contenido, editores y publicistas que buscan producir videos verticales virales de alto impacto para **Instagram Reels**, **TikTok** y **YouTube Shorts**. 
 
-Integra un motor de renderizado procedural en Canvas a **60 FPS reales**, simulación de interfaces de redes sociales con **zonas seguras (Safe Zones)**, un catálogo de **10 transiciones virales en tendencia**, un **motor de audio híbrido con Beat-Sync** y un avanzado **Generador de Prompts IA** con arquitecturas de sintaxis técnica optimizadas para los mejores modelos generativos de video del mercado (**Google VEO 3.1, Runway Gen-3 Alpha, Kling AI y Luma Dream Machine**).
+Integra un motor de renderizado procedural en Canvas a **60 FPS reales con soporte de exportación 2K Quad HD (1440 × 2560 px)**, simulación de interfaces de redes sociales con **zonas seguras (Safe Zones)**, un catálogo de **10 transiciones virales en carrusel scroll con flechas para cada foto o video**, un **motor de audio híbrido (local y en línea por URL)** con Beat-Sync y un avanzado **Generador de Prompts IA** con arquitecturas de sintaxis técnica optimizadas para los mejores modelos generativos de video del mercado (**Google VEO 3.1, Runway Gen-3 Alpha, Kling AI y Luma Dream Machine**).
 
 ---
 
@@ -20,19 +21,20 @@ Integra un motor de renderizado procedural en Canvas a **60 FPS reales**, simula
 ├──────────────────────┬───────────────────────────────┬──────────────────────┤
 │ 1. PANEL DE MEDIOS   │ 2. SIMULADOR & CANVAS 60 FPS  │ 3. PROMPTS IA & AUDIO│
 │ • Carga fotos/videos │ • Canvas nativo 1080x1920     │ • Google VEO 3.1     │
-│ • 4 demos cinemáticos│ • Safe Zones (Reels/TikTok)   │ • Runway Gen-3 Alpha │
-│ • 10 Transiciones FX │ • Overlays de UI interactivos │ • Kling AI 1.5       │
-│ • Curvas de easing   │ • Exportación directa 60 FPS  │ • Luma Dream Machine │
-│ • Duración por clip  │ • Visualizador de Waveform    │ • Beat-Sync & SFX    │
+│ • 10 FX en scroll    │ • Safe Zones (Reels/TikTok)   │ • Runway Gen-3 Alpha │
+│ • Flechas por clip   │ • Overlays de UI interactivos │ • Kling AI 1.5       │
+│ • Selector individual│ • Exportación 2K a 60 FPS     │ • Luma Dream Machine │
+│ • Curvas de easing   │ • Visualizador de Waveform    │ • Audio Local/Online │
 └──────────────────────┴───────────────────────────────┴──────────────────────┘
 ```
 
 ---
 
 ### 1. 📱 Simulador de Interfaz 9:16 & Zonas Seguras (Safe Zones)
-- **Marco de Smartphone Interactivo**: Reproducción vertical continua en relación de aspecto 9:16 con dos resoluciones seleccionables:
-  - **Full HD Vertical**: `1080 × 1920 px` (calidad de producción master).
-  - **HD Vertical**: `720 × 1280 px` (máximo rendimiento y menor peso).
+- **Marco de Smartphone Interactivo**: Reproducción vertical continua en relación de aspecto 9:16 con tres resoluciones seleccionables:
+  - **2K Quad HD Vertical**: `1440 × 2560 px` (máxima nitidez y fidelidad visual a 60 FPS).
+  - **Full HD Vertical**: `1080 × 1920 px` (calidad estándar de producción).
+  - **HD Vertical**: `720 × 1280 px` (renderizado ultrarrápido y ligero).
 - **Zonas Seguras Conmutables (Safe Zones)**:
   - Delimitadores milimétricos en pantalla para garantizar que títulos, rostros, logotipos y subtítulos nunca queden ocultos por:
     - Barra de estado superior y selector de pestañas (Margen superior de 120px).
@@ -45,8 +47,14 @@ Integra un motor de renderizado procedural en Canvas a **60 FPS reales**, simula
 
 ---
 
-### 2. 🌀 Catálogo de 10 Transiciones Tendencia (Render 60 FPS)
-Cada transición está calculada matemáticamente en tiempo real cuadro por cuadro sobre la matriz gráfica del Canvas:
+### 2. 🌀 Catálogo de 10 Transiciones en Scroll Horizontal con Flechas por Clip
+Cada foto o video que cargas en la aplicación cuenta con **su propia tira de scroll horizontal táctil y botones de flechas (`◀` y `▶`)** para navegar y elegir un efecto diferente por cada corte:
+
+```
+[Foto / Video Clip #1] ────────────────────────────────────────────────────────
+Efecto: [⚡ Zoom Impact]
+[ ◀ ] [⚡ Zoom] [👾 Glitch] [💨 Whip Pan] [🌀 Spin 360] [✨ Flash] ... [ ▶ ]
+```
 
 | # | Nombre de Transición | Algoritmo Visual y Efecto | Caso de Uso Ideal |
 |---|---|---|---|
@@ -61,9 +69,10 @@ Cada transición está calculada matemáticamente en tiempo real cuadro por cuad
 | **9** | **Cyber Pixelate / Mosaic** | Rejilla de mosaico que expande sus píxeles para reorganizarse en el siguiente clip. | Contenido retro, tutoriales de software, cultura pop. |
 | **10** | **Liquid Ripple / Shockwave** | Onda de choque acuática circular que deforma concéntricamente la imagen hacia afuera. | Videos bajo el agua, impacto de calzado deportivo, saltos. |
 
-- **Controles de Precisión**:
-  - Duración de transición ajustable entre `0.2s` y `1.5s`.
-  - Aplicación de transición global a toda la línea de tiempo o personalizada clip por clip.
+- **Navegación Intuitiva**:
+  - Flechas `◀` y `▶` para desplazar suavemente los 10 efectos hacia la izquierda o derecha.
+  - Insignia destacada en tiempo real con el icono y nombre del efecto activo en ese clip.
+  - Efectos sonoros (SFX) automáticos al probar cada transición.
 
 ---
 
@@ -89,33 +98,39 @@ Módulo de inteligencia artificial que construye prompts hiperdetallados respeta
 
 ---
 
-### 4. 🎵 Motor de Audio Híbrido, SFX & Beat-Sync
-- **Carga de Audio Local**: Permite importar archivos de audio desde tu computadora o teléfono móvil en formatos `.mp3`, `.wav`, `.aac`, `.m4a` y `.ogg`.
-- **Pistas Trending Libres de Derechos Sintetizadas**: 4 bandas sonoras generadas por el oscilador Web Audio API listas para usar sin problemas de copyright:
-  1. *Phonk Drift (140 BPM)*: Ritmo contundente de 808s ideal para autos y efectos cyberpunk.
-  2. *Synthwave Retro (128 BPM)*: Arpegios melódicos espaciales y futuristas.
-  3. *Lo-Fi Chill (85 BPM)*: Ritmo relajado perfecto para café, viajes, moda y podcasts.
-  4. *Cinematic Epic Riser*: Efecto de tensión creciente con clímax de percusión.
+### 4. 🎵 Motor de Audio Híbrido: Local y en Línea (Online / URL)
+Reel Studio ofrece total versatilidad para sonorizar tus videos:
+
+- **Modo 1: Carga de Audio Local**:
+  - Importa archivos desde tu computadora o teléfono Android en formatos `.mp3`, `.wav`, `.aac`, `.m4a` y `.ogg`.
+- **Modo 2: Carga de Sonido en Línea (Online / URL & Streaming)**:
+  - **Entrada Directa de URL**: Pega cualquier enlace de audio HTTPS de la web (enlaces directos a archivos de audio o streams con cabeceras CORS habilitadas).
+  - **Presets de Streaming Online Integrados**: 4 pistas de streaming en la nube de acceso instantáneo:
+    - 🚀 *Cyberpunk Drive (Stream Online)*
+    - 🔥 *Phonk Bassline Energy 140 BPM (Stream Online)*
+    - ☕ *Lo-Fi Chill Morning (Stream Online)*
+    - 🎬 *Cinematic Epic Drone (Stream Online)*
+- **Modo 3: Pistas Trending Sintetizadas**:
+  - Bandas sonoras generadas por osciladores Web Audio API libres de copyright (Phonk 140 BPM, Synthwave 128 BPM, Lo-Fi 85 BPM, Riser).
 - **Efectos de Sonido Automáticos (SFX)**:
   - Disparo de sonidos dinámicos sincronizados con cada transición: *Whoosh rápido*, *Boom cinemático* o *Glitch estático*.
-- **Visualizador de Forma de Onda (Waveform)**:
-  - Analizador espectral en tiempo real con barras de frecuencia dinámicas.
-- **Asistente Beat-Sync**:
-  - Ajusta automáticamente la duración de los clips de la línea de tiempo a compases musicales matemáticos para que los cortes coincidan milimétricamente con el ritmo de la música.
+- **Visualizador de Espectro (Waveform) & Beat-Sync**:
+  - Analizador en tiempo real y botón para sincronizar la duración de los clips al tempo de la música.
 
 ---
 
-### 5. ⚡ Motor de Render y Exportación Directa a 60 FPS
-- **Tecnología de Grabación**:
-  - Renderizado fotograma a fotograma utilizando `HTMLCanvasElement.captureStream(60)`.
-  - Codificación en tiempo real con `MediaRecorder` de alto flujo (12 Mbps) con fallback automático de codecs (`video/webm;codecs=vp9,opus` o `video/webm`).
+### 5. ⚡ Motor de Render y Exportación en 2K a 60 FPS
+- **Resolución 2K Quad HD (1440 × 2560 px)**:
+  - Diseñada para pantallas de alta gama y dispositivos insignia, garantizando una imagen ultra nítida sin artefactos de compresión.
+- **Tasa de Bits Adaptativa**:
+  - **2K (1440x2560)**: `22 Mbps` a 60 FPS (Ultra Calidad).
+  - **1080p (1080x1920)**: `12 Mbps` a 60 FPS (Calidad Estándar).
+  - **720p (720x1280)**: `6 Mbps` a 60 FPS (Rápido).
 - **Garantía Cero Pérdida de Cuadros**:
-  - El motor simula el reloj de tiempo paso a paso (`dt = 1/60`), asegurando que todos los fotogramas se dibujen con máxima nitidez antes de pasar al siguiente, sin caídas de rendimiento ni desincronización de audio.
-- **Monitor de Renderizado**:
-  - Barra de progreso porcentual y contador visual de fotogramas (`Fotograma: 480 / 480`).
-- **Publicación Inmediata**:
-  - Descarga directa en un clic de archivo de video vertical listo para subir a redes.
-  - Botón de **Compartir Nativo** que dispara la *Web Share API* en celulares Android para enviar directo a Instagram Stories, TikTok o WhatsApp.
+  - Renderizado frame-a-frame mediante simulación matemática del tiempo (`dt = 1/60`), asegurando fluidez perfecta y cero caídas de cuadros.
+- **Descarga y Publicación**:
+  - Descarga de archivo de video nombrado automáticamente con la resolución y los FPS (ej. `Reel_2K_60FPS_1727480000.webm`).
+  - Botón de **Compartir Nativo** vía *Web Share API* para publicar directamente en Instagram Stories, TikTok o WhatsApp en Android.
 
 ---
 
@@ -125,8 +140,8 @@ Módulo de inteligencia artificial que construye prompts hiperdetallados respeta
   - En **Android (Chrome)**: Botón *Instalar Aplicación* o *Agregar a Pantalla de Inicio*.
   - En **PC (Chrome / Edge)**: Icono de instalación en la barra de direcciones para abrir en ventana independiente sin barras de navegador.
 - **Diseño Ergonómico Dual**:
-  - En monitores de escritorio: distribución en estudio panorámico de 3 paneles (Panel de clips, Simulador central 9:16 y Panel de IA/Audio).
-  - En pantallas táctiles móviles: interfaz vertical adaptativa con barra de pestañas inferior para conmutar fácilmente entre el visor, el editor de clips y el estudio de prompts.
+  - En monitores de escritorio: estudio panorámico de 3 paneles.
+  - En móviles táctiles: interfaz vertical adaptativa con navegación inferior.
 
 ---
 
@@ -134,12 +149,12 @@ Módulo de inteligencia artificial que construye prompts hiperdetallados respeta
 
 ```
 📁 Antigravity/
-├── 📄 reel_studio.html        # Aplicación principal todo-en-uno (Canvas, UI, Motor de Audio, IA)
+├── 📄 reel_studio.html        # Aplicación completa (Canvas 2K, UI, Audio Local/Online, Prompts IA)
 ├── 📄 reel-manifest.json      # Manifiesto PWA para instalación en Android y PC
 ├── 📄 reel-sw.js              # Service Worker para ejecución 100% offline
 ├── 📄 reel-icon.svg           # Ícono vectorial de alta definición estilo Neon
 ├── 📄 README.md               # Esta documentación técnica completa
-└── 📄 README_CONTABILIDAD.md  # Copia de seguridad de la documentación del sistema contable
+└── 📄 README_CONTABILIDAD.md  # Copia de seguridad del sistema contable en Bolívars
 ```
 
 ---
@@ -153,22 +168,21 @@ Módulo de inteligencia artificial que construye prompts hiperdetallados respeta
    ```
 2. Haz doble clic sobre el archivo [reel_studio.html](file:///c:/Users/Franklin/Desktop/Antigravity/reel_studio.html).
 3. Se abrirá de inmediato en tu navegador habitual (Google Chrome, Microsoft Edge, Brave, Mozilla Firefox).
-4. La aplicación cargará automáticamente 4 clips cinemáticos de prueba (Cyberpunk City, Hypercar, High Fashion, Deep Cosmos) listos para reproducir y exportar.
+4. Sube tus fotos o videos y selecciona con las flechas el efecto deseado para cada clip.
+5. Elige tu audio (local o en línea pegando una URL) y haz clic en **Exportar 60 FPS** seleccionando la resolución **2K Quad HD**.
 
 ### Opción B: Despliegue en GitHub Pages (Para Acceso Móvil)
-1. Sube a tu repositorio de GitHub los 4 archivos de Reel Studio:
+1. Sube a tu repositorio de GitHub los archivos actualizados:
    - `reel_studio.html`
    - `reel-manifest.json`
    - `reel-sw.js`
    - `reel-icon.svg`
-2. Si ya tienes GitHub Pages activado en la rama `main`, la aplicación estará disponible en línea en:
+   - `README.md`
+2. La aplicación estará disponible en línea en:
    ```
    https://tu-usuario.github.io/tu-repositorio/reel_studio.html
    ```
-3. En tu teléfono Android, abre esa URL en Chrome, presiona los tres puntos `⋮` y selecciona **"Instalar aplicación"**. Tendrás el ícono de Reel Studio en tu pantalla de inicio funcionando a pantalla completa.
-
-> [!TIP]
-> Si deseas que Reel Studio sea la página principal que abre al ingresar a `https://tu-usuario.github.io/tu-repositorio/`, puedes renombrar temporalmente `index.html` a `contabilidad.html` y `reel_studio.html` a `index.html`.
+3. En tu teléfono Android, abre esa URL en Chrome, presiona los tres puntos `⋮` y selecciona **"Instalar aplicación"**.
 
 ---
 
@@ -181,19 +195,8 @@ Módulo de inteligencia artificial que construye prompts hiperdetallados respeta
 | <kbd>→</kbd> | Avanzar un fotograma (+1/60s) |
 | <kbd>S</kbd> | Alternar visibilidad de Zonas Seguras (Safe Zones) |
 | <kbd>R</kbd> | Alternar entre overlay de Instagram Reels, TikTok y YouTube Shorts |
-| <kbd>E</kbd> | Abrir modal de Exportación a 60 FPS |
+| <kbd>E</kbd> | Abrir modal de Exportación 2K a 60 FPS |
 | <kbd>M</kbd> | Silenciar / Activar sonido (Mute) |
-
----
-
-## 🛠️ Tecnologías y Librerías Utilizadas
-
-- **HTML5 Canvas 2D API**: Renderizado procedimental de alta velocidad a 60 FPS con transformaciones de matriz afín.
-- **Web Audio API**: Síntesis de sonido en tiempo real, osciladores de onda, moduladores de ganancia y análisis de frecuencias (`AnalyserNode`).
-- **MediaStream Recording API**: Captura sin pérdidas de flujo de fotogramas a 12 Mbps con codecs VP9 y OPUS.
-- **Tailwind CSS**: Maquetación reactiva ultraestilizada con esquema de color oscuro cinematográfico.
-- **Lucide Icons**: Iconografía vectorial nítida para controles multimedia y navegación.
-- **Web App Manifest & Service Workers**: Estándares W3C para aplicaciones web progresivas instalables.
 
 ---
 
